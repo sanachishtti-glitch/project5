@@ -14,11 +14,11 @@ alert("please write here ");
 return;
 
 }
-// setTimeout(()=>{
+setTimeout(()=>{
 
-// location.reload();
+location.reload();
 
-// },1000);
+},1000);
 
 
 
@@ -60,7 +60,7 @@ li.querySelector("#delete1").addEventListener("click",()=>{
 
 input.addEventListener("keydown",(e1)=>{
 if(e1.key==="Enter"){
-// e1.preventDefault();
+e1.preventDefault();
 data1btn();
 
 }
